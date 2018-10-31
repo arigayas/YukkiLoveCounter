@@ -315,13 +315,13 @@ object Form1: TForm1
   object PopupMenu1: TPopupMenu
     Left = 8
     Top = 168
-    object ResetN1: TMenuItem
-      Caption = #12377#12409#12390#12522#12475#12483#12488' (&R)'
-      OnClick = N1Click
-    end
     object SUMN1: TMenuItem
       Caption = #21512#35336' (&S)'
       OnClick = SUMN1Click
+    end
+    object ResetN1: TMenuItem
+      Caption = #12377#12409#12390#12522#12475#12483#12488' (&R)'
+      OnClick = N1Click
     end
   end
 end
