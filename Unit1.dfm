@@ -316,13 +316,11 @@ object Form1: TForm1
     Left = 8
     Top = 168
     object ResetN1: TMenuItem
-      Caption = #12377#12409#12390#12522#12475#12483#12488
-      ShortCut = 16466
+      Caption = #12377#12409#12390#12522#12475#12483#12488' (&R)'
       OnClick = N1Click
     end
     object SUMN1: TMenuItem
-      Caption = #21512#35336
-      ShortCut = 16467
+      Caption = #21512#35336' (&S)'
       OnClick = SUMN1Click
     end
   end
