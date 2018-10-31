@@ -21,6 +21,14 @@
 
 このソフトは、Delphi 10.2.3 Stater + Windows 10 Pro (1803) で作成しました。
 
-著作者は、arigayasです。
+動作環境：
+Windows 10 (Windows 10 Creators UpdateおよびAnniversary Updateを含む)<br>
+Windows 8、8.1<br>
+Windows 7 (SP1+)<br>
+Windows Server 2012, 2016<br>
+で動くと思います。
 
+-------------------------------------------------------------
+
+著作者は、arigayasです。<br>
 連絡は、Twitterからお願いします。TwitterID：＠arigayas
