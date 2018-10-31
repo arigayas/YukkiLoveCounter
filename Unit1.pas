@@ -101,7 +101,6 @@ begin
     playFlag := true;
     Startbtn.ImageIndex:= 0;
   end;
-
 end;
 
 procedure TForm1.StopbtnClick(Sender: TObject);
@@ -143,9 +142,7 @@ function TForm1.TimeCalc(sec:Integer):string;
 Var
  Hour : Integer; //時間
  Minute: Integer; //分
-
 begin
-
   Hour := sec div 3600;            // sec <- 3700 h:1
   Minute := (sec - Hour * 3600 ) div 60;     // sec - 1 * 3600
   sec  := sec - (Hour * 3600) - (Minute * 60);
