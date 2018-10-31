@@ -119,7 +119,11 @@ var
   SUM:Integer;
 begin
   SUM := StrToInt(Ryota_lbledt.Text) + StrToInt(Ume_lbledt.Text);
-  ShowMessage('二人が「ゆっきーラブ」と言った合計回数は、' + SUM.ToString + ' 回です。');
+
+  if SUM = 0 then
+    ShowMessage('二人はまだ「ゆっきーラブ」と言ってません。')
+  else
+    ShowMessage('二人が「ゆっきーラブ」と言った合計回数は、' + SUM.ToString + ' 回です。');
 end;
 
 procedure TForm1.TimerTimer(Sender: TObject);
